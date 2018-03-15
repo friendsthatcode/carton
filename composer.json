@@ -1,0 +1,53 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-premium/advanced-custom-fields-pro",
+        "type": "wordpress-plugin",
+        "version": "5.6.9",
+        "source": {
+          "url": "https://github.com/wp-premium/advanced-custom-fields-pro.git",
+          "type": "git",
+          "reference": "5.6.9"
+        },
+        "extra": {
+          "installer-name": "acf-pro"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "wp-premium/gravityforms",
+        "type": "wordpress-plugin",
+        "version": "2.2.6",
+        "source": {
+          "url": "https://github.com/wp-premium/gravityforms.git",
+          "type": "git",
+          "reference": "2.2.6"
+        },
+        "extra": {
+          "installer-name": "gravityforms"
+        }
+      }
+    }
+  ],
+  "require": {
+    "johnpbloch/wordpress": "4.*.*",
+    "wpackagist-plugin/timber-library": "*",
+    "monolog/monolog": "^1.23",
+    "roots/wp-password-bcrypt": "^1.0",
+    "vlucas/phpdotenv": "2.*",
+    "tightenco/collect": "5.*",
+    "wp-premium/advanced-custom-fields-pro": "5.*.*",
+    "wp-premium/gravityforms": "2.*.*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}
