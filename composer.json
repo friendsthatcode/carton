@@ -9,11 +9,11 @@
       "package": {
         "name": "wp-premium/advanced-custom-fields-pro",
         "type": "wordpress-plugin",
-        "version": "*",
+        "version": ">=5.*.*",
         "source": {
           "url": "https://github.com/wp-premium/advanced-custom-fields-pro.git",
           "type": "git",
-          "reference": "*"
+          "reference": ">=5.*.*"
         },
         "extra": {
           "installer-name": "advanced-custom-fields-pro"
@@ -25,11 +25,11 @@
       "package": {
         "name": "wp-premium/gravityforms",
         "type": "wordpress-plugin",
-        "version": "*",
+        "version": ">=5.*.*",
         "source": {
           "url": "https://github.com/wp-premium/gravityforms.git",
           "type": "git",
-          "reference": "*"
+          "reference": ">=5.*.*"
         },
         "extra": {
           "installer-name": "gravityforms"
