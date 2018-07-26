@@ -20,6 +20,15 @@
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
+// TO DO: Make this a bit nicer.
+if(strpos($_SERVER['SCRIPT_NAME'], 'wp-admin/install.php')){
+	echo '<div class="ftc-intall">';
+	echo '<h1>Thanks for using Juicebox!</h1><p>It is alot of fun, and is designed to give a developer a tested Wordpress stack that can be built upon as soon as this setup is run!<br><br>Enjoy, and any feedback, drop an email to <a href="mailto:hello@friendsthatcode.co.uk">hello@friendsthatcode.co.uk</a><br></p>';
+	echo '<p>We have hidden the error Wordpress normally throws here, as you have not yet done the key step in your local dev setup.<br><br>Create a database & user that matches the details you gave in the setup earlier, make sure the permissions are correct, and <a href="">reload this page.</a><br><br>Note: If you forgot your creds, you can find them in your .env file.</p>';
+	echo '</div>';
+	echo '<style>#logo a {background-image:url("https://avatars3.githubusercontent.com/u/16834865?s=300&v=4")!important;height: 95px!important;width:200px!important;background-size:contain!important;}.ftc-intall h1, .ftc-intall p, .ftc-intallul{display:block!important;}#error-page h1, #error-page p, #error-page ul{display:none;}.wp-core-ui .ftc-intall {display: none;}</style>';
+}
+
 /**
  * DEFINE DB
  */

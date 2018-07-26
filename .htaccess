@@ -1,5 +1,6 @@
 <Files *.php>
 deny from all
+allow from localhost
 </Files>
 
 # Block WordPress xmlrpc.php requests
