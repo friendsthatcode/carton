@@ -25,11 +25,11 @@
       "package": {
         "name": "wp-premium/gravityforms",
         "type": "wordpress-plugin",
-        "version": "5.7.1",
+        "version": "2.3.3",
         "source": {
           "url": "https://github.com/wp-premium/gravityforms.git",
           "type": "git",
-          "reference": "5.7.1"
+          "reference": "2.3.3"
         },
         "extra": {
           "installer-name": "gravityforms"
