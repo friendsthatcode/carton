@@ -42,6 +42,8 @@ define('WP_ENV', $_ENV['WP_ENV']);
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
+define('WP_DEFAULT_THEME', $_ENV['WP_THEMENAME']);
+
 /**
  * SSL ADMIN
  */
@@ -53,6 +55,16 @@ if ($_ENV['FORCE_SSL_ADMIN'] === 'true') { //dotenv returns everything as a stri
  * Disallow file editor in CMS
  */
 define( 'DISALLOW_FILE_EDIT', true );
+
+/**
+ * Disallow theme and plugin editing
+ */
+define( 'DISALLOW_FILE_MODS', true );
+
+/**
+ * Disable all automatic updates
+ */
+define( 'AUTOMATIC_UPDATER_DISABLED', true );
 
 /**
  * DEFINE EMAIL STUFF / MANDRILL
