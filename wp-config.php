@@ -41,6 +41,11 @@ if ($_ENV['FORCE_SSL_ADMIN'] === 'true') { //dotenv returns everything as a stri
 }
 
 /**
+ * Disallow file editor in CMS
+ */
+define( 'DISALLOW_FILE_EDIT', true );
+
+/**
  * DEFINE EMAIL STUFF / MANDRILL
  */
 define('MANDRILL_KEY', $_ENV['MANDRILL_KEY']);

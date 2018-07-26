@@ -46,7 +46,7 @@
     "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/wp-super-cache": "*",
-    "wpackagist-plugin/gravity-forms-acf-field": "*",
+    "wpackagist-plugin/acf-gravityforms-add-on": "*",
     "wpackagist-plugin/ssl-insecure-content-fixer": "*",
     "monolog/monolog": "^1.23",
     "roots/wp-password-bcrypt": "^1.0",
