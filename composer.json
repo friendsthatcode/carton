@@ -9,11 +9,11 @@
       "package": {
         "name": "wp-premium/advanced-custom-fields-pro",
         "type": "wordpress-plugin",
-        "version": ">=5.*",
+        "version": "5.6.9",
         "source": {
           "url": "https://github.com/wp-premium/advanced-custom-fields-pro.git",
           "type": "git",
-          "reference": ">=5.*"
+          "reference": "5.6.9"
         },
         "extra": {
           "installer-name": "advanced-custom-fields-pro"
@@ -25,11 +25,11 @@
       "package": {
         "name": "wp-premium/gravityforms",
         "type": "wordpress-plugin",
-        "version": ">=2.*",
+        "version": "2.2.6",
         "source": {
           "url": "https://github.com/wp-premium/gravityforms.git",
           "type": "git",
-          "reference": ">=2.*"
+          "reference": "2.2.6"
         },
         "extra": {
           "installer-name": "gravityforms"
@@ -43,7 +43,6 @@
     "wpackagist-plugin/discourage-search-engines-by-url": "*",
     "wpackagist-plugin/duplicate-page": "*",
     "wpackagist-plugin/regenerate-thumbnails": "*",
-    "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/wp-super-cache": "*",
