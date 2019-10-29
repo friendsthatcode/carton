@@ -38,14 +38,13 @@
     }
   ],
   "require": {
-    "johnpbloch/wordpress": "4.*.*",
+    "johnpbloch/wordpress": "5.*.*",
     "wpackagist-plugin/timber-library": "*",
     "wpackagist-plugin/discourage-search-engines-by-url": "*",
     "wpackagist-plugin/duplicate-page": "*",
     "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/simple-custom-post-order": "*",
     "wpackagist-plugin/wordpress-seo": "*",
-    "wpackagist-plugin/wp-super-cache": "*",
     "wpackagist-plugin/acf-gravityforms-add-on": "*",
     "wpackagist-plugin/ssl-insecure-content-fixer": "*",
     "monolog/monolog": "^1.23",
