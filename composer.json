@@ -7,13 +7,13 @@
     {
       "type": "package",
       "package": {
-        "name": "wp-premium/advanced-custom-fields-pro",
+        "name": "friendsthatcode/acfp",
         "type": "wordpress-plugin",
-        "version": "5.6.9",
+        "version": "5.8.9",
         "source": {
-          "url": "https://github.com/wp-premium/advanced-custom-fields-pro.git",
+          "url": "https://github.com/friendsthatcode/acfp.git",
           "type": "git",
-          "reference": "5.6.9"
+          "reference": "5.8.9"
         },
         "extra": {
           "installer-name": "advanced-custom-fields-pro"
@@ -51,7 +51,7 @@
     "roots/wp-password-bcrypt": "^1.0",
     "vlucas/phpdotenv": "2.*",
     "tightenco/collect": "5.*",
-    "wp-premium/advanced-custom-fields-pro": "5.*",
+    "friendsthatcode/acfp": "5.*",
     "wp-premium/gravityforms": "2.*"
   },
   "extra": {
