@@ -47,6 +47,8 @@
     "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/acf-gravityforms-add-on": "*",
     "wpackagist-plugin/ssl-insecure-content-fixer": "*",
+    "wpackagist-plugin/wp-optimize": "*",
+    "wpackagist-plugin/wp-smartcrop": "*",
     "monolog/monolog": "^1.23",
     "roots/wp-password-bcrypt": "^1.0",
     "vlucas/phpdotenv": "2.*",
